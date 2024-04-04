@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-27T14:10:20 IST" name="Suite" finished-at="2024-03-27T14:10:55 IST" duration-ms="35653">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.LoginErrorValidations()[pri:0, instance:rahulshettyacademy.tests.ErrorValidations@3932c79a]" name="LoginErrorValidations" class="rahulshettyacademy.tests.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="alone2.alone2(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.alone2@7c37508a]" name="alone2" class="rahulshettyacademy.tests.alone2"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-03-27T14:10:20 IST" name="Error Validation Tests" finished-at="2024-03-27T14:10:38 IST" duration-ms="18282">
+      <class name="rahulshettyacademy.tests.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.ErrorValidations@3932c79a]" started-at="2024-03-27T14:10:20 IST" name="launchApplication" finished-at="2024-03-27T14:10:25 IST" duration-ms="5404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidations()[pri:0, instance:rahulshettyacademy.tests.ErrorValidations@3932c79a]" started-at="2024-03-27T14:10:25 IST" name="LoginErrorValidations" finished-at="2024-03-27T14:10:26 IST" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidations -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.ErrorValidations@3932c79a]" started-at="2024-03-27T14:10:26 IST" name="launchApplication" finished-at="2024-03-27T14:10:29 IST" duration-ms="2655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:rahulshettyacademy.tests.ErrorValidations@3932c79a]" started-at="2024-03-27T14:10:29 IST" name="ProductErrorValidation" finished-at="2024-03-27T14:10:38 IST" duration-ms="9211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+      </class> <!-- rahulshettyacademy.tests.ErrorValidations -->
+    </test> <!-- Error Validation Tests -->
+    <test started-at="2024-03-27T14:10:20 IST" name="alone2" finished-at="2024-03-27T14:10:55 IST" duration-ms="35653">
+      <class name="rahulshettyacademy.tests.alone2">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.alone2@7c37508a]" started-at="2024-03-27T14:10:20 IST" name="launchApplication" finished-at="2024-03-27T14:10:26 IST" duration-ms="5342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="alone2(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.alone2@7c37508a]" started-at="2024-03-27T14:10:26 IST" name="alone2" data-provider="GetData" finished-at="2024-03-27T14:10:36 IST" duration-ms="10756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pswd=aZaW@1533, Emai=karthikmalladi@gmail.com, product=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alone2 -->
+        <test-method is-config="true" signature="finsih()[pri:0, instance:rahulshettyacademy.tests.alone2@7c37508a]" started-at="2024-03-27T14:10:36 IST" name="finsih" finished-at="2024-03-27T14:10:36 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finsih -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.alone2@7c37508a]" started-at="2024-03-27T14:10:36 IST" name="launchApplication" finished-at="2024-03-27T14:10:38 IST" duration-ms="2086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="alone2(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.alone2@7c37508a]" started-at="2024-03-27T14:10:38 IST" name="alone2" data-provider="GetData" finished-at="2024-03-27T14:10:49 IST" duration-ms="10268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pswd=aZaW@1533, Emai=dsjdhsh@gmail.com, product=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alone2 -->
+        <test-method is-config="true" signature="finsih()[pri:0, instance:rahulshettyacademy.tests.alone2@7c37508a]" started-at="2024-03-27T14:10:49 IST" name="finsih" finished-at="2024-03-27T14:10:49 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finsih -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.alone2@7c37508a]" started-at="2024-03-27T14:10:49 IST" name="launchApplication" finished-at="2024-03-27T14:10:54 IST" duration-ms="5055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:rahulshettyacademy.tests.alone2@7c37508a]" started-at="2024-03-27T14:10:54 IST" name="OrderHistoryTest" finished-at="2024-03-27T14:10:55 IST" depends-on-methods="rahulshettyacademy.tests.alone2.alone2" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="finsih()[pri:0, instance:rahulshettyacademy.tests.alone2@7c37508a]" started-at="2024-03-27T14:10:55 IST" name="finsih" finished-at="2024-03-27T14:10:55 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finsih -->
+      </class> <!-- rahulshettyacademy.tests.alone2 -->
+    </test> <!-- alone2 -->
+  </suite> <!-- Suite -->
+</testng-results>
